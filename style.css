@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  padding: 6% 11%;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  gap: 40px;
+}
+.main-nav a {
+  text-decoration: none;
+}
+.main-nav a:link,
+.main-nav a:visited {
+  color: #5E607A;
+}
+
+.hero-section {
+  padding: 60px 0;
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  grid-template-rows: 21vw max-content;
+  gap: 30px;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+}
+
+.main-heading-and-cta {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: flex-start;
+}
+.main-heading-and-cta .description-and-cta .description {
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+
+.cta {
+  width: 185px;
+  height: 48px;
+  background-color: #F15D51;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 4.375px;
+  font-weight: 700;
+  color: #FFFDFA;
+}
+
+.new-features {
+  grid-area: 1/2/3/3;
+  background-color: #00001A;
+  color: white;
+  padding: 32px 24px;
+}
+
+.new-features-heading {
+  font-size: 40px;
+  color: #E9AA52;
+  font-weight: 700;
+}
+
+.new-feature-heading {
+  font-size: 20px;
+  font-weight: 800;
+  color: #FFFDFA;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+
+.new-feature-description {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 173.333% */
+  color: #C5C6CE;
+  margin-bottom: 30px;
+}
+
+.feature-divider {
+  height: 1px;
+  background-color: #5E607A;
+  border: none;
+}
+
+.article-section {
+  display: flex;
+  gap: 24px;
+}
+
+.article {
+  display: flex;
+  gap: 24px;
+}
+
+.article-img {
+  min-width: 100px;
+  height: 100%;
+}
+
+.article-number {
+  color: #C5C6CE;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.article-title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 9px;
+}
+
+.article-description {
+  font-size: 15px;
+  color: #5E607A;
+  line-height: 26px;
+}/*# sourceMappingURL=style.css.map */
