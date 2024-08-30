@@ -10,19 +10,10 @@ This repository contains the source code for a news homepage built as part of th
    ```bash
    git clone https://github.com/your-username/news-homepage.git
    ```
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
 
-**Running the Development Server**
-
-To start the development server, use the following command:
-
-```bash
-npm start
-```
-This will launch the application at `http://localhost:3000`.
+2. **Open the project in a web browser:**
+   * Navigate to the project directory.
+   * Double-click the `index.html` file to open it in your default web browser.
 
 **Project Structure**
 
@@ -47,11 +38,7 @@ Project Structure:
 
 **Testing**
 
-To run tests, use the following command:
-
-```bash
-npm test
-```
+**Not applicable.** This project is a static HTML/CSS/JavaScript project, so it doesn't require a development server or testing framework.
 
 **Contributing**
 
@@ -68,12 +55,9 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 **Additional Notes**
 
-* **Deployment:** For deployment instructions, refer to the specific deployment guide for your hosting platform.
-* **Linting:** Linting tools can be used to enforce code quality standards. Run `npm run lint` to check for potential issues.
+* **Frontend Mentor Challenge Details**
 
-**Frontend Mentor Challenge Details**
-
-This project was created as a solution to the Frontend Mentor challenge titled "News Homepage." You can find more details about the challenge and submit your solution on the Frontend Mentor website: [https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl)
+  This project was created as a solution to the Frontend Mentor challenge titled "News Homepage." You can find more details about the challenge and submit your solution on the Frontend Mentor website: [https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl)
 
 **Contact**
 
